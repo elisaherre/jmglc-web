@@ -21,8 +21,8 @@ export default function RootLayout({ children }) {
       <body>
         <LanguageProvider>
           <Navbar />
-          {/* <Footer /> */}
           {children}
+          <Footer />
         </LanguageProvider>
       </body>
     </html>

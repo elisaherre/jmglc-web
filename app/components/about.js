@@ -13,13 +13,13 @@ export default function About() {
   };
 
   return (
-    <div className="about">
+    <div className="about h-fit">
 
-        <section className="grid grid-cols-7 auto-rows gap-4">
+        <section className="grid grid-cols-4 md:grid-cols-7 auto-rows gap-2.5 md:gap-4">
           <div className="col-span-1">
-            <h3 className="titles">About</h3>
+            <h3 className="titles pl-5 md:pl-0">About</h3>
           </div>
-          <div className="col-span-5 pb-16">
+          <div className="col-span-3 md:col-span-5 pb-8 md:pb-16">
             {language === 'es' && (
               <>
                 <p>
@@ -58,11 +58,11 @@ export default function About() {
             </div>
           </div>
         </section>
-        <section className="grid grid-cols-7 auto-rows gap-4">
+        <section className="grid grid-cols-4 md:grid-cols-7 auto-rows gap-2.5 md:gap-4">
           <div className="col-span-1">
-            <h3 className="titles">Contact</h3>
+            <h3 className="titles pl-5 md:pl-0">Contact</h3>
           </div>
-          <div className="col-span-5">
+          <div className="col-span-3 md:col-span-5">
             <div className='grid grid-cols-2'>
               <p>josemaria@jmglc.xyz</p>
               <div className="bio-img-container">
