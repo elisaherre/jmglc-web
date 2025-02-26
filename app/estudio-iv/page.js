@@ -15,54 +15,99 @@ export default function Rey() {
 
         <div className="project-info">
 
-          <div className='grid grid-cols-5 auto-rows gap-4'>
-            <div className='col-span-1'></div>
-            <div className="col-span-1">
+          <div className='grid grid-cols-4 md:grid-cols-5 auto-rows gap-4'>
+            <div className='col-span-1 md:block hidden'></div>
+            <div className="col-span-1 mb-5">
               <div>
               {language === 'es' && (
-                <h3 className="titles">Proyecto</h3>
+                <h3 className="titles fixed pl-5 md:pl-0">Proyecto</h3>
               )}
               {language === 'en' && (
-                <h3 className="titles">Project</h3>
+                <h3 className="titles fixed pl-5 md:pl-0">Project</h3>
               )}
               </div>
             </div>
-            <div className='col-span-3'>
-              <p>Estudio IV</p>
-            </div>
-
-            <div className='col-span-1'></div>
-            <div className="col-span-1">
-              <div>
+            <div className='col-span-3 mb-5'>
               {language === 'es' && (
-                <h3 className="titles">Fecha</h3>
+                <p className='fixed'>Estudio IV</p>
               )}
               {language === 'en' && (
-                <h3 className="titles">Date</h3>
+                <p className='fixed'>Study IV</p>
+              )}
+            </div>
+
+            <div className='col-span-1 md:block hidden'></div>
+            <div className="col-span-1 mb-5">
+              <div>
+              {language === 'es' && (
+                <h3 className="titles fixed pl-5 md:pl-0">Fecha</h3>
+              )}
+              {language === 'en' && (
+                <h3 className="titles fixed pl-5 md:pl-0">Date</h3>
               )}
               </div>
             </div>
-            <div className='col-span-3'>
-              <p>2024</p>
+            <div className='col-span-3 mb-5'>
+              <p className='fixed'>2024</p>
             </div>
 
-            <div className='col-span-1'></div>
+            <div className='col-span-1 md:block hidden'></div>
             <div className="col-span-1">
               <div>
               {language === 'es' && (
-                <h3 className="titles">Estatus</h3>
+                <h3 className="titles pl-5 md:pl-0">Ubicación</h3>
               )}
               {language === 'en' && (
-                <h3 className="titles">Status</h3>
+                <h3 className="titles pl-5 md:pl-0">Location</h3>
               )}
               </div>
             </div>
             <div className='col-span-3'>
             {language === 'es' && (
-              <p>En desarrollo</p>
+              <p>Museo Universitario de Ciencias y Arte (MUCA)</p>
             )}
             {language === 'en' && (
-              <p>In developement</p>
+              <p>Museo Universitario de Ciencias y Arte (MUCA)</p>
+            )}
+            </div>
+
+            <div className='col-span-1 md:block hidden'></div>
+            <div className="col-span-1">
+              <div>
+              {language === 'es' && (
+                <h3 className="titles pl-5 md:pl-0">Estatus</h3>
+              )}
+              {language === 'en' && (
+                <h3 className="titles pl-5 md:pl-0">Status</h3>
+              )}
+              </div>
+            </div>
+            <div className='col-span-3'>
+            {language === 'es' && (
+              <p>Exhibición</p>
+            )}
+            {language === 'en' && (
+              <p>Exhibition</p>
+            )}
+            </div>
+
+            <div className='col-span-1 md:block hidden'></div>
+            <div className="col-span-1">
+              <div>
+              {language === 'es' && (
+                <h3 className="titles pl-5 md:pl-0">Fotografías</h3>
+              )}
+              {language === 'en' && (
+                <h3 className="titles pl-5 md:pl-0">Photographs</h3>
+              )}
+              </div>
+            </div>
+            <div className='col-span-3'>
+            {language === 'es' && (
+              <p>Omar Gámez</p>
+            )}
+            {language === 'en' && (
+              <p>Omar Gámez</p>
             )}
             </div>
           </div>
@@ -70,56 +115,50 @@ export default function Rey() {
         </div>
 
         {/* Descripción */}
+
         <div className="col-span-4 md:col-span-7">
-          <div className="grid grid-cols-4 md:grid-cols-7 auto-rows gap-2.5 md:gap-4 pb-10">
+          <div className="grid grid-cols-4 md:grid-cols-7 auto-rows gap-2.5 md:gap-4 pb-10 pt-4 md:pt-0">
               <div className="col-span-1">
               {language === 'es' && (
-                <h3 className="titles">Texto</h3>
+                <h3 className="titles pl-5 md:pl-0">Texto</h3>
               )}
               {language === 'en' && (
-                <h3 className="titles">Text</h3>
+                <h3 className="titles pl-5 md:pl-0">Text</h3>
               )}
               </div>
               {language === 'es' && (
-              <div className="col-span-5">
+              <div className="col-span-3 md:col-span-5">
                 <p className="pb-2">
-                  Convocatoria que solicitaba la ampliación del actual plantel de primaria de una escuela en la Ciudad de México para construir el Bloque de las Artes, un Salón de Usos Múltiples y la remodelación del volumen existente de la Biblioteca.
+                  Esta pieza forma parte de una colaboración para el proyecto de Rolando Flores “Dinastía de Albañiles: otras arquitecturas emocionales” que se exhibió en el Museo Universitario de Ciencias y Artes (MUCA) de la Universidad Nacional Autónoma de México (UNAM), Ciudad de México. Este proyecto de Rolando Flores, con curaduría de Ixel Rion, tiene como eje central una escultura creada en colaboración con una dinastía de albañiles: Gilberto Vargas Barrón, Roberto Vargas Martínez y Alberto Vargas Ginés; abuelo, hijo y nieto, respectivamente. La obra, construida en un terreno baldío en Ecatepec de Morelos, Estado de México, se presenta como un punto de inflexión entre disciplinas laborales, la periferia y el contexto urbano, permitiéndonos cuestionar los límites profesionales entre la creación artística, la arquitectura y la albañilería a través de diversos procesos creativos y emocionales.
                 </p>
                 <p className="pb-2">
-                  La intervención pretende unificar todo el programa de la escuela en un solo volumen articulado a través de un nuevo vestíbulo y plaza híbrida de acceso. Haciendo uso de materiales aparentes y siguiendo la lógica constructiva de los edificios existentes de ambos planteles, la propuesta generará un nuevo corazón para la comunidad así como nuevas formas de habitar un recinto académico, en constante contacto con el exterior y la naturaleza. Una nueva plaza híbrida de acceso podrá utilizarse peatonalmente, como bahía de ascenso y descenso, o como una ampliación del estacionamiento cuando haya una mayor afluencia de vehículos.
-                </p>
-                <p className="pb-4">
-                  El Salón de Usos Múltiples se convertirá en el corazón del plantel, el cual podrá abrirse hacia el exterior o cerrarse por completo cuando sea necesario. Los nuevos salones plantean una nueva forma de enseñanza en constante contacto con el exterior y la naturaleza. Estos podrán abrirse en sus extremos, protegidos del sol por las cartelas de tabique y generando ventilación natural cruzada. En el segundo nivel, el Patio de las Artes, fomentará el intercambio entre las diferentes disciplinas en un ambiente contenido.
+                  La conceptualización de la pieza “Estudio IV” parte de tres ejes fundamentales. El primero, es la relación entre el árbol genealógico abuelo-padre-nieto y cada uno de los muros elegidos por los albañiles, los cuales van por orden genealógico en alturas descendentes. El segundo, busca enfatizar y formalizar la narrativa de la familia, convirtiendo a cada uno de los personajes en el muro que les corresponde. El tercer y último eje, utiliza la representación del tejido o telar como metáfora de un entramado familiar, indivisible, en constante cambio y donde los motivos individuales no se pueden comprender sin mirar el conjunto que genera el mismo. Así, el proyecto pretende generar una reflexión hacia los lazos familiares y los cambios que se van dando conforme se heredan las tradiciones de generación en generación. Después de una serie de pruebas en dibujo y pequeños telares, el textil final se realizó en Oaxaca con la técnica tradicional de los telares de Teotitlán del Valle, con el apoyo del estudio de textiles Arudeko.
                 </p>
               </div>
               )}
               {language === 'en' && (
-              <div className="col-span-5">
+              <div className="col-span-3 md:col-span-5">
                 <p className="pb-2">
-                  This project proposes the extension of the current primary school campus of a school in Mexico City, encompassing the art classrooms, a multi-use hall, and the renovation of the existing library.
+                  This piece is part of a collaboration for Rolando Flores&apos; project “Dinastía de Albañiles: otras arquitecturas emocionales” which was exhibited at the University Museum of Sciences and Arts (MUCA) of the National Autonomous University of Mexico (UNAM), Mexico City. This project by Rolando Flores, curated by Ixel Rion, centres around a sculpture created in collaboration with a dynasty of bricklayers: Gilberto Vargas Barrón, Roberto Vargas Martínez, and Alberto Vargas Ginés, grandfather, son, and grandson, respectively. The work, constructed on a vacant lot in Ecatepec de Morelos, State of Mexico, serves as an inflexion point between labour disciplines, the periphery, and the urban context, allowing us to question the professional boundaries between artistic creation, architecture, and masonry through various creative and emotional processes.
                 </p>
                 <p className="pb-2">
-                  The intervention aims to unify the entire school program into a single integrated volume articulated through a new lobby and hybrid plaza. Using exposed materials and following the construction logic of the existing buildings of both campuses, the proposal will generate a new heart for the community as well as new ways of experiencing academic environments close to the exterior and nature. A new hybrid access plaza can be used as a pedestrian space, as a drop-off and pick-up bay, or as an extension of the parking lot when there is increased vehicle traffic.
-                </p>
-                <p className="pb-2">
-                  The new multi-use hall will become the heart of the campus, which can open up to the outside or be completely closed when necessary. The new classrooms propose a new teaching approach that is constantly in contact with the exterior and nature. These can open at their sides, protected from the sun by the building’s latticed porous skinand generating cross ventilation. On the second level, a courtyard will foster exchange between different disciplines in a safe environment.
+                  The conceptualization of the piece “Study IV” is based on three fundamental axes. The first is the relationship between the grandfather-father-grandson family tree and each of the walls chosen by the bricklayers, which follow a genealogical order in descending heights. The second seeks to emphasize and formalize the family&apos;s narrative, turning each of the characters into the wall that corresponds to them. The third and final axis uses the representation of weaving as a metaphor for family heritage, which is indivisible and constantly changing, and where individual motifs cannot be understood without looking at the whole they generate. Thus, the project aims to generate a reflection on family bonds and the changes that occur as traditions are passed down from generation to generation. After a series of drawing tests and small looms, the final textile was made in Oaxaca using the traditional technique of the Teotitlán del Valle textiles, with the support of the Arudeko studio.
                 </p>
               </div>
               )}
               <div className='col-span-1'></div>
           </div>
           <div className="grid grid-cols-4 md:grid-cols-7 auto-rows gap-2.5 md:gap-4">
-              <div className="col-span-1">
+              <div className="col-span-1 mb-5">
               {language === 'es' && (
-                <h3 className="titles">Imágenes</h3>
+                <h3 className="titles pl-5 md:pl-0">Imágenes</h3>
               )}
               {language === 'en' && (
-                <h3 className="titles">Images</h3>
+                <h3 className="titles pl-5 md:pl-0">Images</h3>
               )}
               </div>
           </div>
         </div>
-      {/* </div> */}
 
       <div className='close-btn'>
         <a href='/'>
@@ -134,77 +173,129 @@ export default function Rey() {
         </a>
       </div>
 
-    {/* Images */}
-    <div className='col-span-12'>
-      <div className='grid grid-cols-4 md:grid-cols-12 gap-y-20 gap-x-2.5'>
+      {/* Images */}
 
-      <div className='col-span-6'>
-        <div className='template01-01'>
-          <Image
-            src='/images/rey-yupanqui/01.png'
-            alt='Rey Yupanqui'
-            width={100}
-            height={100}
-            quality={100}
-            unoptimized={true}
-          />
-        </div>
-      </div>
-      <div className='col-span-6'></div>
+      <div className='col-span-4 md:col-span-12'>
+        <div className='grid grid-cols-4 md:grid-cols-12 gap-y-16 gap-x-4 mx-10'>
 
-      <div className='col-span-6'></div>
-      <div className='col-span-6'>
-        <div className='template01-02'>
-          <Image
-            src='/images/rey-yupanqui/02.png'
-            alt='Rey Yupanqui'
-            width={100}
-            height={100}
-            quality={100}
-            unoptimized={true}
-          />
+        <div className='col-span-4 md:col-span-12'>
+          <div className='template02-01'>
+            <Image
+              src='/images/estudio-iv/01.webp'
+              alt='Estudio IV'
+              width={100}
+              height={100}
+              quality={100}
+              unoptimized={true}
+            />
+          </div>
+        </div>
+
+        <div className='col-span-2 md:col-span-6'>
+          <div className='template02-02'>
+            <Image
+              src='/images/estudio-iv/02.webp'
+              alt='Estudio IV'
+              width={100}
+              height={100}
+              quality={100}
+              unoptimized={true}
+            />
+          </div>
+        </div>
+        <div className='col-span-2 md:col-span-6'>
+          <div className='template02-02'>
+            <Image
+                  src='/images/estudio-iv/03.webp'
+                  alt='Estudio IV'
+                  width={100}
+                  height={100}
+                  quality={100}
+                  unoptimized={true}
+                />
+          </div>
+        </div>
+
+        <div className='col-span-4 md:col-span-6'>
+          <div className='template02-03'>
+            <Image
+              src='/images/estudio-iv/04.webp'
+              alt='Estudio IV'
+              width={100}
+              height={100}
+              quality={100}
+              unoptimized={true}
+            />
+          </div>
+        </div>
+        <div className='md:col-span-6 hidden md:block'></div>
+
+        <div className='col-span-2 md:col-span-6'>
+          <div className='template02-02'>
+            <Image
+              src='/images/estudio-iv/05.webp'
+              alt='Estudio IV'
+              width={100}
+              height={100}
+              quality={100}
+              unoptimized={true}
+            />
+          </div>
+        </div>
+        <div className='col-span-2 md:col-span-6'>
+          <div className='template02-02'>
+            <Image
+                  src='/images/estudio-iv/06.webp'
+                  alt='Estudio IV'
+                  width={100}
+                  height={100}
+                  quality={100}
+                  unoptimized={true}
+                />
+          </div>
+        </div>
+
+        <div className='col-span-4 md:col-span-12 pb-10'>
+          <div className='template02-04'>
+            <Image
+              src='/images/estudio-iv/07.webp'
+              alt='Estudio IV'
+              width={100}
+              height={100}
+              quality={100}
+              unoptimized={true}
+            />
+          </div>
+        </div>
+
+        <div className='col-span-2 md:col-span-6 pb-10'>
+          <div className='template02-02'>
+            <Image
+              src='/images/estudio-iv/08.webp'
+              alt='Estudio IV'
+              width={100}
+              height={100}
+              quality={100}
+              unoptimized={true}
+            />
+          </div>
+        </div>
+        <div className='col-span-2 md:col-span-6 pb-10'>
+          <div className='template02-02'>
+            <Image
+                  src='/images/estudio-iv/09.webp'
+                  alt='Estudio IV'
+                  width={100}
+                  height={100}
+                  quality={100}
+                  unoptimized={true}
+                />
+          </div>
+        </div>
+
         </div>
       </div>
 
-      <div className='col-span-6'>
-        <div className='template01-03'>
-          <Image
-            src='/images/rey-yupanqui/03.jpg'
-            alt='Rey Yupanqui'
-            width={100}
-            height={100}
-            quality={100}
-            unoptimized={true}
-          />
-        </div>
-      </div>
-      <div className='col-span-6'>
-        <div className='template01-03'>
-          <Image
-                src='/images/rey-yupanqui/04.png'
-                alt='Rey Yupanqui'
-                width={100}
-                height={100}
-                quality={100}
-                unoptimized={true}
-              />
-        </div>
-      </div>
-      <div className='col-span-12 pb-10'>
-        <div className='template01-04'>
-          <Image
-            src='/images/rey-yupanqui/05.jpg'
-            alt='Rey Yupanqui'
-            width={100}
-            height={100}
-            quality={100}
-            unoptimized={true}
-          />
-        </div>
-      </div>
-
-      </div>
-    </div>
     </>
   )
 }

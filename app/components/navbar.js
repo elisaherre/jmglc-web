@@ -171,7 +171,7 @@ export default function Navbar() {
                     <a href="/rey-yupanqui" id='rey-yupanqui'>Rey Yupanqui</a>
                   </li>
                   <li>
-                    <a href="#">Estudio IV</a>
+                    <a href="/estudio-iv">Estudio IV</a>
                   </li>
                   <li>
                     <a href="#">Palmarosa</a>

@@ -50,6 +50,26 @@ export default function Rey() {
             <div className="col-span-1">
               <div>
               {language === 'es' && (
+                <h3 className="titles pl-5 md:pl-0">Ubicación</h3>
+              )}
+              {language === 'en' && (
+                <h3 className="titles pl-5 md:pl-0">Location</h3>
+              )}
+              </div>
+            </div>
+            <div className='col-span-3'>
+            {language === 'es' && (
+              <p>Ciudad de México</p>
+            )}
+            {language === 'en' && (
+              <p>Mexico City</p>
+            )}
+            </div>
+
+            <div className='col-span-1 md:block hidden'></div>
+            <div className="col-span-1">
+              <div>
+              {language === 'es' && (
                 <h3 className="titles pl-5 md:pl-0">Estatus</h3>
               )}
               {language === 'en' && (

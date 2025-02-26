@@ -7,25 +7,27 @@
 @layer components {
   body {
     @apply
-      bg-jm-gray
-      text-black
-      font-inter
-      text-sm
-      py-5
-      mx-5
-      md:py-11
-      max-w-7xl
-      md:mx-auto
-      grid
-      grid-cols-4
-      md:grid-cols-12
-      auto-rows-auto
-      gap-y-0
-      gap-x-2.5
-      md:gap-x-4
-      min-h-screen
-      grid-rows-[1fr_auto]
-      h-full
+    bg-jm-gray
+    text-black
+    font-inter
+    text-sm
+    py-5
+    mx-5
+    md:py-11
+    max-w-7xl
+    md:mx-auto
+    grid
+    grid-cols-4
+    md:grid-cols-12
+    gap-y-0
+    gap-x-2.5
+    md:gap-x-4
+    min-h-screen;
+    grid-template-rows: 1fr auto;
+  }
+
+  main {
+    @apply col-span-4 md:col-span-12;
   }
 
   h3 {
@@ -139,8 +141,7 @@
   /* Footer */
 
   .footer {
-    @apply row-start-[-1] col-span-4 md:col-span-12;
-    margin-top: auto;
+    @apply col-span-4 md:col-span-12 mt-auto;
   }
 
   .footer-content {
@@ -183,6 +184,37 @@
   }
 
   .template01-04 img {
+    @apply h-full w-full object-cover;
+  }
+
+  /* Template 02 */
+
+  .template02-01 img {
+    @apply h-full w-full object-cover;
+  }
+
+  .template02-02 {
+    @apply h-full w-full;
+  }
+
+  .template02-02 img {
+    @apply h-full w-full object-cover object-center;
+  }
+
+  .template02-03 {
+    @apply h-full w-full;
+  }
+
+  .template02-03 img {
+    @apply h-full w-full object-cover;
+  }
+
+  .template02-04 {
+    @apply w-full;
+    height: 70vh;
+  }
+
+  .template02-04 img {
     @apply h-full w-full object-cover;
   }
 }
