@@ -4,7 +4,7 @@ import { useLanguage } from '../context/LanguageContext';
 import Image from 'next/image';
 import { useState } from 'react';
 
-export default function Rey() {
+export default function Estudio() {
   const { language } = useLanguage();
 
   return (
@@ -255,7 +255,7 @@ export default function Rey() {
           </div>
         </div>
 
-        <div className='col-span-4 md:col-span-12 pb-10'>
+        <div className='col-span-4 md:col-span-12'>
           <div className='template02-04'>
             <Image
               src='/images/estudio-iv/07.webp'

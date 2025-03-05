@@ -74,7 +74,7 @@
       @apply object-contain w-full h-full;
       opacity: 0;
       transition: opacity 0.3s ease-in-out;
-      max-width: 45%;
+      max-width: 60%;
       max-height: 80vh;
       object-position: left bottom;
     }
