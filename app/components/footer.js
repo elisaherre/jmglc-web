@@ -46,8 +46,8 @@ export default function Footer() {
       route: '/paisaje-tiempo-ciudad'
     },
     {
-      nombre_ES: 'Tu y yo',
-      nombre_EN: 'You and I',
+      nombre_ES: '"tú" y "yo", "tú y yo"',
+      nombre_EN: '"you" and "me", "me and you"',
       route: '/tu-y-yo'
     }
   ];
