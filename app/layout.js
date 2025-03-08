@@ -10,19 +10,14 @@ import { LanguageProvider } from "./context/LanguageContext";
 
 const inter = Inter({ subsets: ["latin"] });
 
-/* export const metadata = {
-  title: "José María Gómez de León Cantú",
-  description: "Architect",
-}; */
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
         <LanguageProvider>
           <Navbar />
-          {/* <Footer /> */}
           {children}
+          <Footer />
         </LanguageProvider>
       </body>
     </html>
