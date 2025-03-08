@@ -158,119 +158,120 @@ export default function PTC() {
       <div className='col-span-4 md:col-span-12'>
         <div className='grid grid-cols-4 md:grid-cols-12 gap-y-16 gap-x-4 mx-10'>
 
-        <div className='col-span-4 md:col-span-12'>
-          <div className='template02-01'>
-            <Image
-              src='/images/paisaje-tiempo-ciudad/01.webp'
-              alt='Paisaje Tiempo Ciudad'
-              width={100}
-              height={100}
-              quality={100}
-              unoptimized={true}
-            />
+        {/* COMPLETA */}
+          <div className='col-span-4 md:col-span-12'>
+            <div className='img-full'>
+              <Image
+                src='/images/paisaje-tiempo-ciudad/01.webp'
+                alt='Paisaje Tiempo Ciudad'
+                width={100}
+                height={100}
+                quality={100}
+                unoptimized={true}
+              />
+            </div>
           </div>
-        </div>
 
-        <div className='col-span-2 md:col-span-6'>
-          <div className='template02-02'>
-            <Image
-              src='/images/paisaje-tiempo-ciudad/02.webp'
-              alt='Paisaje Tiempo Ciudad'
-              width={100}
-              height={100}
-              quality={100}
-              unoptimized={true}
-            />
+        {/* IZQ */}
+          <div className='md:col-span-6 col-span-4'>
+            <div className='img-right'>
+              <Image
+                src='/images/paisaje-tiempo-ciudad/02.webp'
+                alt='Paisaje Tiempo Ciudad'
+                width={100}
+                height={100}
+                quality={100}
+                unoptimized={true}
+              />
+            </div>
           </div>
-        </div>
-        <div className='col-span-2 md:col-span-6'>
-          <div className='template02-02'>
-            <Image
-                  src='/images/paisaje-tiempo-ciudad/03.webp'
-                  alt='Paisaje Tiempo Ciudad'
-                  width={100}
-                  height={100}
-                  quality={100}
-                  unoptimized={true}
-                />
-          </div>
-        </div>
+          <div className='md:col-span-6 hidden md:block'></div>
 
-        <div className='col-span-4 md:col-span-6'>
-          <div className='template02-03'>
-            <Image
-              src='/images/paisaje-tiempo-ciudad/04.webp'
-              alt='Paisaje Tiempo Ciudad'
-              width={100}
-              height={100}
-              quality={100}
-              unoptimized={true}
-            />
+        {/* COMPLETA */}
+          <div className='col-span-4 md:col-span-12'>
+            <div className='img-full'>
+              <Image
+                src='/images/paisaje-tiempo-ciudad/03.webp'
+                alt='Paisaje Tiempo Ciudad'
+                width={100}
+                height={100}
+                quality={100}
+                unoptimized={true}
+              />
+            </div>
           </div>
-        </div>
+
+        {/* DER */}
         <div className='md:col-span-6 hidden md:block'></div>
-
-        <div className='col-span-2 md:col-span-6'>
-          <div className='template02-02'>
-            <Image
-              src='/images/paisaje-tiempo-ciudad/05.webp'
-              alt='Paisaje Tiempo Ciudad'
-              width={100}
-              height={100}
-              quality={100}
-              unoptimized={true}
-            />
-          </div>
-        </div>
-        <div className='col-span-2 md:col-span-6'>
-          <div className='template02-02'>
-            <Image
-                  src='/images/paisaje-tiempo-ciudad/06.webp'
-                  alt='Paisaje Tiempo Ciudad'
-                  width={100}
-                  height={100}
-                  quality={100}
-                  unoptimized={true}
-                />
-          </div>
+        <div className='md:col-span-6 col-span-4'>
+            <div className='img-right'>
+              <Image
+                src='/images/paisaje-tiempo-ciudad/04.webp'
+                alt='Paisaje Tiempo Ciudad'
+                width={100}
+                height={100}
+                quality={100}
+                unoptimized={true}
+              />
+            </div>
         </div>
 
+        {/* COMPLETA */}
         <div className='col-span-4 md:col-span-12'>
-          <div className='template02-04'>
-            <Image
-              src='/images/paisaje-tiempo-ciudad/07.webp'
-              alt='Paisaje Tiempo Ciudad'
-              width={100}
-              height={100}
-              quality={100}
-              unoptimized={true}
-            />
-          </div>
+            <div className='img-full'>
+              <Image
+                src='/images/paisaje-tiempo-ciudad/05.webp'
+                alt='Paisaje Tiempo Ciudad'
+                width={100}
+                height={100}
+                quality={100}
+                unoptimized={true}
+              />
+            </div>
         </div>
 
-        <div className='col-span-2 md:col-span-6 pb-10'>
-          <div className='template02-02'>
-            <Image
-              src='/images/paisaje-tiempo-ciudad/08.webp'
-              alt='Paisaje Tiempo Ciudad'
-              width={100}
-              height={100}
-              quality={100}
-              unoptimized={true}
-            />
+        {/* IZQ */}
+        <div className='md:col-span-6 col-span-4'>
+            <div className='img-right'>
+              <Image
+                src='/images/paisaje-tiempo-ciudad/06.webp'
+                alt='Paisaje Tiempo Ciudad'
+                width={100}
+                height={100}
+                quality={100}
+                unoptimized={true}
+              />
+            </div>
           </div>
-        </div>
-        <div className='col-span-2 md:col-span-6 pb-10'>
-          <div className='template02-02'>
-            <Image
-                  src='/images/paisaje-tiempo-ciudad/09.webp'
-                  alt='Paisaje Tiempo Ciudad'
-                  width={100}
-                  height={100}
-                  quality={100}
-                  unoptimized={true}
-                />
+          <div className='md:col-span-6 hidden md:block'></div>
+
+        {/* COMPLETA */}
+        <div className='col-span-4 md:col-span-12'>
+            <div className='img-full'>
+              <Image
+                src='/images/paisaje-tiempo-ciudad/07.webp'
+                alt='Paisaje Tiempo Ciudad'
+                width={100}
+                height={100}
+                quality={100}
+                unoptimized={true}
+              />
+            </div>
           </div>
+
+        {/* DER */}
+        <div className='md:col-span-6 hidden md:block'></div>
+        <div className='md:col-span-6 col-span-4 pb-10'>
+            <div className='img-right'>
+              <Image
+                src='/images/paisaje-tiempo-ciudad/08.webp'
+                alt='Paisaje Tiempo Ciudad'
+                width={100}
+                height={100}
+                quality={100}
+                unoptimized={true}
+              />
+            </div>
         </div>
 
         </div>

@@ -179,8 +179,9 @@ export default function Rey() {
       <div className='col-span-4 md:col-span-12'>
         <div className='grid grid-cols-4 md:grid-cols-12 gap-y-16 gap-x-4 mx-10'>
 
+        {/* IZQ */}
         <div className='col-span-4 md:col-span-6'>
-          <div className='template01-01'>
+          <div className='img-left'>
             <Image
               src='/images/rey-yupanqui/01.webp'
               alt='Rey Yupanqui'
@@ -193,9 +194,10 @@ export default function Rey() {
         </div>
         <div className='md:col-span-6 hidden md:block'></div>
 
+        {/* DER */}
         <div className='md:col-span-6 hidden md:block'></div>
         <div className='md:col-span-6 col-span-4'>
-          <div className='template01-02'>
+          <div className='img-right'>
             <Image
               src='/images/rey-yupanqui/02.webp'
               alt='Rey Yupanqui'
@@ -207,8 +209,9 @@ export default function Rey() {
           </div>
         </div>
 
+        {/* DOBLE */}
         <div className='col-span-2 md:col-span-6'>
-          <div className='template01-03'>
+          <div className='img-dbl'>
             <Image
               src='/images/rey-yupanqui/03.webp'
               alt='Rey Yupanqui'
@@ -220,7 +223,7 @@ export default function Rey() {
           </div>
         </div>
         <div className='col-span-2 md:col-span-6'>
-          <div className='template01-03'>
+          <div className='img-dbl'>
             <Image
                   src='/images/rey-yupanqui/04.webp'
                   alt='Rey Yupanqui'
@@ -231,10 +234,135 @@ export default function Rey() {
                 />
           </div>
         </div>
-        <div className='col-span-4 md:col-span-12 pb-10'>
-          <div className='template01-04'>
+
+        {/* IZQ */}
+        <div className='col-span-4 md:col-span-6'>
+          <div className='img-left'>
             <Image
               src='/images/rey-yupanqui/05.webp'
+              alt='Rey Yupanqui'
+              width={100}
+              height={100}
+              quality={100}
+              unoptimized={true}
+            />
+          </div>
+        </div>
+        <div className='md:col-span-6 hidden md:block'></div>
+
+        {/* DOBLE */}
+        <div className='col-span-2 md:col-span-6'>
+          <div className='img-dbl'>
+            <Image
+              src='/images/rey-yupanqui/06.webp'
+              alt='Rey Yupanqui'
+              width={100}
+              height={100}
+              quality={100}
+              unoptimized={true}
+            />
+          </div>
+        </div>
+        <div className='col-span-2 md:col-span-6'>
+          <div className='img-dbl'>
+            <Image
+                  src='/images/rey-yupanqui/07.webp'
+                  alt='Rey Yupanqui'
+                  width={100}
+                  height={100}
+                  quality={100}
+                  unoptimized={true}
+                />
+          </div>
+        </div>
+
+        {/* DER */}
+        <div className='md:col-span-6 hidden md:block'></div>
+        <div className='md:col-span-6 col-span-4'>
+          <div className='img-right'>
+            <Image
+              src='/images/rey-yupanqui/08.webp'
+              alt='Rey Yupanqui'
+              width={100}
+              height={100}
+              quality={100}
+              unoptimized={true}
+            />
+          </div>
+        </div>
+
+        {/* DOBLE */}
+        <div className='col-span-2 md:col-span-6'>
+          <div className='img-dbl'>
+            <Image
+              src='/images/rey-yupanqui/09.webp'
+              alt='Rey Yupanqui'
+              width={100}
+              height={100}
+              quality={100}
+              unoptimized={true}
+            />
+          </div>
+        </div>
+        <div className='col-span-2 md:col-span-6'>
+          <div className='img-dbl'>
+            <Image
+                  src='/images/rey-yupanqui/10.webp'
+                  alt='Rey Yupanqui'
+                  width={100}
+                  height={100}
+                  quality={100}
+                  unoptimized={true}
+                />
+          </div>
+        </div>
+
+        {/* IZQ */}
+        <div className='col-span-4 md:col-span-6'>
+          <div className='img-left'>
+            <Image
+              src='/images/rey-yupanqui/11.webp'
+              alt='Rey Yupanqui'
+              width={100}
+              height={100}
+              quality={100}
+              unoptimized={true}
+            />
+          </div>
+        </div>
+        <div className='md:col-span-6 hidden md:block'></div>
+
+        {/* DOBLE */}
+        <div className='col-span-2 md:col-span-6'>
+          <div className='img-dbl'>
+            <Image
+              src='/images/rey-yupanqui/12.webp'
+              alt='Rey Yupanqui'
+              width={100}
+              height={100}
+              quality={100}
+              unoptimized={true}
+            />
+          </div>
+        </div>
+        <div className='col-span-2 md:col-span-6'>
+          <div className='img-dbl'>
+            <Image
+                  src='/images/rey-yupanqui/13.webp'
+                  alt='Rey Yupanqui'
+                  width={100}
+                  height={100}
+                  quality={100}
+                  unoptimized={true}
+                />
+          </div>
+        </div>
+
+        {/* COMPLETA */}
+        <div className='col-span-4 md:col-span-12 pb-10'>
+          <div className='img-full'>
+            <Image
+              src='/images/rey-yupanqui/14.webp'
               alt='Rey Yupanqui'
               width={100}
               height={100}

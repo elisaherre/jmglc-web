@@ -158,120 +158,242 @@ export default function TYY() {
       <div className='col-span-4 md:col-span-12'>
         <div className='grid grid-cols-4 md:grid-cols-12 gap-y-16 gap-x-4 mx-10'>
 
-        <div className='col-span-4 md:col-span-12'>
-          <div className='template02-01'>
-            <Image
-              src='/images/tu-y-yo/01.webp'
-              alt='Tu y Yo'
-              width={100}
-              height={100}
-              quality={100}
-              unoptimized={true}
-            />
+        {/* DOBLE */}
+          <div className='col-span-2 md:col-span-6'>
+            <div className='img-dbl'>
+              <Image
+                src='/images/tu-y-yo/01.webp'
+                alt='Tu y Yo'
+                width={100}
+                height={100}
+                quality={100}
+                unoptimized={true}
+              />
+            </div>
           </div>
-        </div>
+          <div className='col-span-2 md:col-span-6'>
+            <div className='img-dbl'>
+              <Image
+                    src='/images/tu-y-yo/02.webp'
+                    alt='Tu y Yo'
+                    width={100}
+                    height={100}
+                    quality={100}
+                    unoptimized={true}
+                  />
+            </div>
+          </div>
 
-        <div className='col-span-2 md:col-span-6'>
-          <div className='template02-02'>
-            <Image
-              src='/images/tu-y-yo/02.webp'
-              alt='Tu y Yo'
-              width={100}
-              height={100}
-              quality={100}
-              unoptimized={true}
-            />
+        {/* COMPLETA */}
+          <div className='col-span-4 md:col-span-12'>
+            <div className='img-full'>
+              <Image
+                src='/images/tu-y-yo/03.webp'
+                alt='Tu y Yo'
+                width={100}
+                height={100}
+                quality={100}
+                unoptimized={true}
+              />
+            </div>
           </div>
-        </div>
-        <div className='col-span-2 md:col-span-6'>
-          <div className='template02-02'>
-            <Image
-                  src='/images/tu-y-yo/03.webp'
-                  alt='Tu y Yo'
-                  width={100}
-                  height={100}
-                  quality={100}
-                  unoptimized={true}
-                />
-          </div>
-        </div>
 
-        <div className='col-span-4 md:col-span-6'>
-          <div className='template02-03'>
-            <Image
-              src='/images/tu-y-yo/04.webp'
-              alt='Tu y Yo'
-              width={100}
-              height={100}
-              quality={100}
-              unoptimized={true}
-            />
-          </div>
-        </div>
+        {/* DER */}
         <div className='md:col-span-6 hidden md:block'></div>
-
-        <div className='col-span-2 md:col-span-6'>
-          <div className='template02-02'>
-            <Image
-              src='/images/tu-y-yo/05.webp'
-              alt='Tu y Yo'
-              width={100}
-              height={100}
-              quality={100}
-              unoptimized={true}
-            />
+          <div className='md:col-span-6 col-span-4'>
+            <div className='img-right'>
+              <Image
+                src='/images/tu-y-yo/04.webp'
+                alt='Tu y Yo'
+                width={100}
+                height={100}
+                quality={100}
+                unoptimized={true}
+              />
+            </div>
           </div>
-        </div>
-        <div className='col-span-2 md:col-span-6'>
-          <div className='template02-02'>
-            <Image
-                  src='/images/tu-y-yo/06.webp'
-                  alt='Tu y Yo'
-                  width={100}
-                  height={100}
-                  quality={100}
-                  unoptimized={true}
-                />
-          </div>
-        </div>
 
+        {/* DOBLE */}
+        <div className='col-span-2 md:col-span-6'>
+            <div className='img-dbl'>
+              <Image
+                src='/images/tu-y-yo/05.webp'
+                alt='Tu y Yo'
+                width={100}
+                height={100}
+                quality={100}
+                unoptimized={true}
+              />
+            </div>
+          </div>
+          <div className='col-span-2 md:col-span-6'>
+            <div className='img-dbl'>
+              <Image
+                    src='/images/tu-y-yo/06.webp'
+                    alt='Tu y Yo'
+                    width={100}
+                    height={100}
+                    quality={100}
+                    unoptimized={true}
+                  />
+            </div>
+          </div>
+
+        {/* IZQ */}
+          <div className='col-span-4 md:col-span-6'>
+            <div className='img-left'>
+              <Image
+                src='/images/tu-y-yo/06.webp'
+                alt='Tu y Yo'
+                width={100}
+                height={100}
+                quality={100}
+                unoptimized={true}
+              />
+            </div>
+          </div>
+          <div className='md:col-span-6 hidden md:block'></div>
+
+        {/* DOBLE */}
+        <div className='col-span-2 md:col-span-6'>
+            <div className='img-dbl'>
+              <Image
+                src='/images/tu-y-yo/07.webp'
+                alt='Tu y Yo'
+                width={100}
+                height={100}
+                quality={100}
+                unoptimized={true}
+              />
+            </div>
+          </div>
+          <div className='col-span-2 md:col-span-6'>
+            <div className='img-dbl'>
+              <Image
+                    src='/images/tu-y-yo/08.webp'
+                    alt='Tu y Yo'
+                    width={100}
+                    height={100}
+                    quality={100}
+                    unoptimized={true}
+                  />
+            </div>
+          </div>
+
+        {/* DER */}
+        <div className='md:col-span-6 hidden md:block'></div>
+          <div className='md:col-span-6 col-span-4'>
+            <div className='img-right'>
+              <Image
+                src='/images/tu-y-yo/09.webp'
+                alt='Tu y Yo'
+                width={100}
+                height={100}
+                quality={100}
+                unoptimized={true}
+              />
+            </div>
+          </div>
+
+        {/* DER */}
+        <div className='md:col-span-6 hidden md:block'></div>
+          <div className='md:col-span-6 col-span-4'>
+            <div className='img-right'>
+              <Image
+                src='/images/tu-y-yo/10.webp'
+                alt='Tu y Yo'
+                width={100}
+                height={100}
+                quality={100}
+                unoptimized={true}
+              />
+            </div>
+          </div>
+
+        {/* DOBLE */}
+        <div className='col-span-2 md:col-span-6'>
+            <div className='img-dbl'>
+              <Image
+                src='/images/tu-y-yo/11.webp'
+                alt='Tu y Yo'
+                width={100}
+                height={100}
+                quality={100}
+                unoptimized={true}
+              />
+            </div>
+          </div>
+          <div className='col-span-2 md:col-span-6'>
+            <div className='img-dbl'>
+              <Image
+                    src='/images/tu-y-yo/12.webp'
+                    alt='Tu y Yo'
+                    width={100}
+                    height={100}
+                    quality={100}
+                    unoptimized={true}
+                  />
+            </div>
+          </div>
+
+        {/* IZQ */}
+        <div className='col-span-4 md:col-span-6'>
+            <div className='img-left'>
+              <Image
+                src='/images/tu-y-yo/13.webp'
+                alt='Tu y Yo'
+                width={100}
+                height={100}
+                quality={100}
+                unoptimized={true}
+              />
+            </div>
+          </div>
+          <div className='md:col-span-6 hidden md:block'></div>
+
+        {/* COMPLETA */}
         <div className='col-span-4 md:col-span-12'>
-          <div className='template02-04'>
-            <Image
-              src='/images/tu-y-yo/07.webp'
-              alt='Tu y Yo'
-              width={100}
-              height={100}
-              quality={100}
-              unoptimized={true}
-            />
+            <div className='img-full'>
+              <Image
+                src='/images/tu-y-yo/14.webp'
+                alt='Tu y Yo'
+                width={100}
+                height={100}
+                quality={100}
+                unoptimized={true}
+              />
+            </div>
           </div>
+
+        {/* DER */}
+        <div className='md:col-span-6 hidden md:block'></div>
+          <div className='md:col-span-6 col-span-4'>
+            <div className='img-right'>
+              <Image
+                src='/images/tu-y-yo/15.webp'
+                alt='Tu y Yo'
+                width={100}
+                height={100}
+                quality={100}
+                unoptimized={true}
+              />
+            </div>
         </div>
 
-        <div className='col-span-2 md:col-span-6 pb-10'>
-          <div className='template02-02'>
-            <Image
-              src='/images/tu-y-yo/08.webp'
-              alt='Tu y Yo'
-              width={100}
-              height={100}
-              quality={100}
-              unoptimized={true}
-            />
+        {/* IZQ */}
+        <div className='col-span-4 md:col-span-6 pb-10'>
+            <div className='img-left'>
+              <Image
+                src='/images/tu-y-yo/16.webp'
+                alt='Tu y Yo'
+                width={100}
+                height={100}
+                quality={100}
+                unoptimized={true}
+              />
+            </div>
           </div>
-        </div>
-        <div className='col-span-2 md:col-span-6 pb-10'>
-          <div className='template02-02'>
-            <Image
-                  src='/images/tu-y-yo/09.webp'
-                  alt='Tu y Yo'
-                  width={100}
-                  height={100}
-                  quality={100}
-                  unoptimized={true}
-                />
-          </div>
-        </div>
+        <div className='md:col-span-6 hidden md:block'></div>
 
         </div>
       </div>

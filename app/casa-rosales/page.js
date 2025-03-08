@@ -168,119 +168,216 @@ export default function CasaRosales() {
       <div className='col-span-4 md:col-span-12'>
         <div className='grid grid-cols-4 md:grid-cols-12 gap-y-16 gap-x-4 mx-10'>
 
+        {/* COMPLETA */}
+          <div className='col-span-4 md:col-span-12'>
+            <div className='img-full'>
+              <Image
+                src='/images/casa-rosales/01.webp'
+                alt='Casa Rosales'
+                width={100}
+                height={100}
+                quality={100}
+                unoptimized={true}
+              />
+            </div>
+          </div>
+
+        {/* IZQ */}
+          <div className='col-span-4 md:col-span-6'>
+            <div className='img-left'>
+              <Image
+                src='/images/casa-rosales/02.webp'
+                alt='Casa Rosales'
+                width={100}
+                height={100}
+                quality={100}
+                unoptimized={true}
+              />
+              </div>
+          </div>
+          <div className='md:col-span-6 hidden md:block'></div>
+
+        {/* DER */}
+          <div className='md:col-span-6 hidden md:block'></div>
+          <div className='md:col-span-6 col-span-4'>
+            <div className='img-right'>
+              <Image
+                src='/images/casa-rosales/03.webp'
+                alt='Casa Rosales'
+                width={100}
+                height={100}
+                quality={100}
+                unoptimized={true}
+              />
+            </div>
+          </div>
+
+        {/* DOBLE */}
+          <div className='col-span-2 md:col-span-6'>
+            <div className='img-dbl'>
+              <Image
+                src='/images/casa-rosales/04.webp'
+                alt='Casa Rosales'
+                width={100}
+                height={100}
+                quality={100}
+                unoptimized={true}
+              />
+            </div>
+          </div>
+          <div className='col-span-2 md:col-span-6'>
+            <div className='img-dbl'>
+              <Image
+                    src='/images/casa-rosales/05.webp'
+                    alt='Casa Rosales'
+                    width={100}
+                    height={100}
+                    quality={100}
+                    unoptimized={true}
+                  />
+            </div>
+          </div>
+
+        {/* COMPLETA */}
         <div className='col-span-4 md:col-span-12'>
-          <div className='template02-01'>
-            <Image
-              src='/images/casa-rosales/01.webp'
-              alt='Casa Rosales'
-              width={100}
-              height={100}
-              quality={100}
-              unoptimized={true}
-            />
-          </div>
+            <div className='img-full'>
+              <Image
+                src='/images/casa-rosales/06.png'
+                alt='Casa Rosales'
+                width={100}
+                height={100}
+                quality={100}
+                unoptimized={true}
+              />
+            </div>
         </div>
 
-        <div className='col-span-2 md:col-span-6'>
-          <div className='template02-02'>
-            <Image
-              src='/images/casa-rosales/02.webp'
-              alt='Casa Rosales'
-              width={100}
-              height={100}
-              quality={100}
-              unoptimized={true}
-            />
-          </div>
-        </div>
-        <div className='col-span-2 md:col-span-6'>
-          <div className='template02-02'>
-            <Image
-                  src='/images/casa-rosales/03.webp'
-                  alt='Casa Rosales'
-                  width={100}
-                  height={100}
-                  quality={100}
-                  unoptimized={true}
-                />
-          </div>
-        </div>
-
-        <div className='col-span-4 md:col-span-6'>
-          <div className='template02-03'>
-            <Image
-              src='/images/casa-rosales/04.webp'
-              alt='Casa Rosales'
-              width={100}
-              height={100}
-              quality={100}
-              unoptimized={true}
-            />
-          </div>
-        </div>
+        {/* DER */}
         <div className='md:col-span-6 hidden md:block'></div>
-
-        <div className='col-span-2 md:col-span-6'>
-          <div className='template02-02'>
-            <Image
-              src='/images/casa-rosales/05.webp'
-              alt='Casa Rosales'
-              width={100}
-              height={100}
-              quality={100}
-              unoptimized={true}
-            />
-          </div>
-        </div>
-        <div className='col-span-2 md:col-span-6'>
-          <div className='template02-02'>
-            <Image
-                  src='/images/casa-rosales/06.png'
-                  alt='Casa Rosales'
-                  width={100}
-                  height={100}
-                  quality={100}
-                  unoptimized={true}
-                />
-          </div>
+        <div className='md:col-span-6 col-span-4'>
+            <div className='img-right'>
+              <Image
+                src='/images/casa-rosales/07.webp'
+                alt='Casa Rosales'
+                width={100}
+                height={100}
+                quality={100}
+                unoptimized={true}
+              />
+            </div>
         </div>
 
+        {/* COMPLETA */}
         <div className='col-span-4 md:col-span-12'>
-          <div className='template02-04'>
-            <Image
-              src='/images/casa-rosales/07.webp'
-              alt='Casa Rosales'
-              width={100}
-              height={100}
-              quality={100}
-              unoptimized={true}
-            />
-          </div>
+            <div className='img-full'>
+              <Image
+                src='/images/casa-rosales/08.webp'
+                alt='Casa Rosales'
+                width={100}
+                height={100}
+                quality={100}
+                unoptimized={true}
+              />
+            </div>
         </div>
 
-        <div className='col-span-2 md:col-span-6 pb-10'>
-          <div className='template02-02'>
-            <Image
-              src='/images/casa-rosales/08.webp'
-              alt='Casa Rosales'
-              width={100}
-              height={100}
-              quality={100}
-              unoptimized={true}
-            />
+        {/* DOBLE */}
+        <div className='col-span-2 md:col-span-6'>
+            <div className='img-dbl'>
+              <Image
+                src='/images/casa-rosales/09.webp'
+                alt='Casa Rosales'
+                width={100}
+                height={100}
+                quality={100}
+                unoptimized={true}
+              />
+            </div>
           </div>
+          <div className='col-span-2 md:col-span-6'>
+            <div className='img-dbl'>
+              <Image
+                    src='/images/casa-rosales/10.webp'
+                    alt='Casa Rosales'
+                    width={100}
+                    height={100}
+                    quality={100}
+                    unoptimized={true}
+                  />
+            </div>
+          </div>
+
+        {/* IZQ */}
+          <div className='col-span-4 md:col-span-6'>
+            <div className='img-left'>
+              <Image
+                src='/images/casa-rosales/11.webp'
+                alt='Casa Rosales'
+                width={100}
+                height={100}
+                quality={100}
+                unoptimized={true}
+              />
+              </div>
+          </div>
+          <div className='md:col-span-6 hidden md:block'></div>
+
+        {/* DER */}
+        <div className='md:col-span-6 hidden md:block'></div>
+        <div className='md:col-span-6 col-span-4'>
+            <div className='img-right'>
+              <Image
+                src='/images/casa-rosales/12.webp'
+                alt='Casa Rosales'
+                width={100}
+                height={100}
+                quality={100}
+                unoptimized={true}
+              />
+            </div>
         </div>
-        <div className='col-span-2 md:col-span-6 pb-10'>
-          <div className='template02-02'>
-            <Image
-                  src='/images/casa-rosales/09.webp'
-                  alt='Casa Rosales'
-                  width={100}
-                  height={100}
-                  quality={100}
-                  unoptimized={true}
-                />
+
+        {/* COMPLETA */}
+        <div className='col-span-4 md:col-span-12'>
+            <div className='img-full'>
+              <Image
+                src='/images/casa-rosales/13.png'
+                alt='Casa Rosales'
+                width={100}
+                height={100}
+                quality={100}
+                unoptimized={true}
+              />
+            </div>
+        </div>
+
+        {/* IZQ */}
+        <div className='col-span-4 md:col-span-6'>
+            <div className='img-left'>
+              <Image
+                src='/images/casa-rosales/14.webp'
+                alt='Casa Rosales'
+                width={100}
+                height={100}
+                quality={100}
+                unoptimized={true}
+              />
+              </div>
           </div>
+          <div className='md:col-span-6 hidden md:block'></div>
+
+        {/* COMPLETA */}
+        <div className='col-span-4 md:col-span-12 pb-10'>
+            <div className='img-full'>
+              <Image
+                src='/images/casa-rosales/15.webp'
+                alt='Casa Rosales'
+                width={100}
+                height={100}
+                quality={100}
+                unoptimized={true}
+              />
+            </div>
         </div>
 
         </div>

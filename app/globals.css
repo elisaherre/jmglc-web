@@ -148,10 +148,41 @@
     @apply grid grid-cols-4 md:grid-cols-12 md:gap-4 gap-2.5;
   }
 
-  /* Template */
+  /* Templates */
   .project-info {
     @apply col-span-4 md:col-span-5 h-fit;
   }
+
+  /* Images */
+  .img-left {
+    @apply h-full w-full;
+  }
+
+  .img-left img {
+    @apply h-full w-full object-cover;
+  }
+
+  .img-right {
+    @apply h-full w-full;
+  }
+
+  .img-right img {
+    @apply h-full w-full object-cover;
+  }
+
+  .img-dbl {
+    @apply h-full w-full;
+  }
+
+  .img-dbl img {
+    @apply h-full w-full object-cover object-center;
+  }
+
+  .img-full img {
+    @apply h-full w-full object-cover;
+  }
+
+  
 
   /* Template 01 */
   .template01-01 {
