@@ -190,20 +190,6 @@ export default function RioHouse() {
             </div>
           </div>
 
-        {/* COMPLETA */}
-        <div className='col-span-4 md:col-span-12'>
-            <div className='img-full'>
-              <Image
-                src='/images/casa-rio/03.webp'
-                alt='Casa Río'
-                width={100}
-                height={100}
-                quality={100}
-                unoptimized={true}
-              />
-            </div>
-        </div>
-
         {/* IZQ */}
           <div className='col-span-4 md:col-span-6'>
             <div className='img-left'>

@@ -17,7 +17,7 @@ export default function About() {
 
         <section className="grid grid-cols-4 md:grid-cols-7 auto-rows gap-2.5 md:gap-4">
           <div className="col-span-1">
-            <h3 className="titles pl-5 md:pl-0">About</h3>
+            <h3 className="titles pl-5 md:pl-0">{language === 'es' ? 'Acerca de' : 'About'}</h3>
           </div>
           <div className="col-span-3 md:col-span-5 pb-8 md:pb-16">
             {language === 'es' && (
@@ -53,19 +53,32 @@ export default function About() {
                 className="read-more-button"
                 onClick={toggleReadMore}
               >
-                {isExpanded ? 'Read Less' : 'Read More'}
+                {isExpanded
+                  ? (language === 'es' ? 'Leer menos' : 'Read Less')
+                  : (language === 'es' ? 'Leer más' : 'Read More')}
               </button>
+              <div className="bio-img-container-mobile mt-4">
+                <Image
+                  src="/images/jmglc_about.png"
+                  alt="José María Gómez de León Cantú"
+                  className="bio-image"
+                  width={100}
+                  height={100}
+                  quality={100}
+                  unoptimized={true}
+                />
+              </div>
             </div>
           </div>
         </section>
         <section className="grid grid-cols-4 md:grid-cols-7 auto-rows gap-2.5 md:gap-4">
           <div className="col-span-1">
-            <h3 className="titles pl-5 md:pl-0">Contact</h3>
+            <h3 className="titles pl-5 md:pl-0">{language === 'es' ? 'Contacto' : 'Contact'}</h3>
           </div>
           <div className="col-span-3 md:col-span-5">
             <div className='grid grid-cols-2'>
               <p>josemaria@jmglc.xyz</p>
-              <div className="bio-img-container">
+              <div className="bio-img-container hidden md:block">
                   <p className="bio-text">José María Gómez de León</p>
                   <Image
                     src="/images/jmglc_about.png"

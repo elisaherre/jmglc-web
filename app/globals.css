@@ -101,6 +101,20 @@
     justify-content: center;
   }
 
+  .bio-img-container-mobile {
+    @apply w-48 lg:w-72 md:min-h-52 lg:min-h-72 xl:min-h-80 flex justify-center flex-col items-center md:hidden;
+    position: relative;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .bio-text-mobile {
+    @apply block md:hidden;
+    transition: opacity 0.2s ease-in-out;
+    z-index: 10;
+  }
+
   .bio-text {
     @apply hidden md:block;
     transition: opacity 0.2s ease-in-out;
@@ -136,6 +150,16 @@
 
   .bio-img-container:hover .bio-image {
     opacity: 1;
+  }
+
+  .bio-img-container-mobile .bio-image {
+    opacity: 1;
+    position: static;
+    transform: none;
+    top: auto;
+    left: auto;
+    width: 100%;
+    height: auto;
   }
 
   /* Footer */
@@ -182,7 +206,7 @@
     @apply h-full w-full object-cover;
   }
 
-  
+
 
   /* Template 01 */
   .template01-01 {
