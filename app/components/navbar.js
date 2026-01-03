@@ -9,16 +9,17 @@ export default function Navbar() {
   const [hoveredItem, setHoveredItem] = useState(null);
   const { language } = useLanguage();
   const pathname = usePathname();
+  const base = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
   const images = {
-    'rey-yupanqui': '/images/covers/01_Rey_Yupanqui.webp',
-    'estudio': '/images/covers/02_Estudio.webp',
-    'palmarosa': '/images/covers/03_Palmarosa.webp',
-    'casa-rosales': '/images/covers/04_Casa_Rosales.webp',
-    'casa-rio': '/images/covers/05_Casa_Rio.webp',
-    'ciudad-deportiva': '/images/covers/06_Ciudad_Deportiva.webp',
-    'paisaje-tiempo-ciudad': '/images/covers/07_Paisaje_Ciudad.webp',
-    'tu-y-yo': '/images/covers/08_Tu_Y_Yo.webp',
+    'rey-yupanqui': `${base}/images/covers/01_Rey_Yupanqui.webp`,
+    'estudio': `${base}/images/covers/02_Estudio.webp`,
+    'palmarosa': `${base}/images/covers/03_Palmarosa.webp`,
+    'casa-rosales': `${base}/images/covers/04_Casa_Rosales.webp`,
+    'casa-rio': `${base}/images/covers/05_Casa_Rio.webp`,
+    'ciudad-deportiva': `${base}/images/covers/06_Ciudad_Deportiva.webp`,
+    'paisaje-tiempo-ciudad': `${base}/images/covers/07_Paisaje_Ciudad.webp`,
+    'tu-y-yo': `${base}/images/covers/08_Tu_Y_Yo.webp`,
   };
 
   return (
@@ -36,21 +37,21 @@ export default function Navbar() {
                 onMouseEnter={() => setHoveredItem('rey-yupanqui')}
                 onMouseLeave={() => setHoveredItem(null)}
               >
-                <a href="/rey-yupanqui" id='rey-yupanqui'>Rey Yupanqui</a>
+                <a href={`${base}/rey-yupanqui`} id='rey-yupanqui'>Rey Yupanqui</a>
               </li>
 
               <li
                 onMouseEnter={() => setHoveredItem('estudio')}
                 onMouseLeave={() => setHoveredItem(null)}
               >
-                <a href="/estudio-iv">Estudio IV</a>
+                <a href={`${base}/estudio-iv`}>Estudio IV</a>
               </li>
 
               <li
                 onMouseEnter={() => setHoveredItem('palmarosa')}
                 onMouseLeave={() => setHoveredItem(null)}
               >
-                <a href="/palmarosa">Palmarosa</a>
+                <a href={`${base}/palmarosa`}>Palmarosa</a>
               </li>
 
               {language === 'es' && (
@@ -58,7 +59,7 @@ export default function Navbar() {
                 onMouseEnter={() => setHoveredItem('casa-rosales')}
                 onMouseLeave={() => setHoveredItem(null)}
               >
-                <a href="/casa-rosales">Casa Rosales</a>
+                <a href={`${base}/casa-rosales`}>Casa Rosales</a>
               </li>
               )}
               {language === 'en' && (
@@ -66,7 +67,7 @@ export default function Navbar() {
                 onMouseEnter={() => setHoveredItem('casa-rosales')}
                 onMouseLeave={() => setHoveredItem(null)}
               >
-                <a href="/casa-rosales">Rosales House</a>
+                <a href={`${base}/casa-rosales`}>Rosales House</a>
               </li>
               )}
 
@@ -75,7 +76,7 @@ export default function Navbar() {
                 onMouseEnter={() => setHoveredItem('casa-rio')}
                 onMouseLeave={() => setHoveredItem(null)}
               >
-                <a href="/casa-rio">Casa Río</a>
+                <a href={`${base}/casa-rio`}>Casa Río</a>
               </li>
               )}
               {language === 'en' && (
@@ -83,7 +84,7 @@ export default function Navbar() {
                 onMouseEnter={() => setHoveredItem('casa-rio')}
                 onMouseLeave={() => setHoveredItem(null)}
               >
-                <a href="/casa-rio">Río House</a>
+                <a href={`${base}/casa-rio`}>Río House</a>
               </li>
               )}
 
@@ -92,7 +93,7 @@ export default function Navbar() {
                 onMouseEnter={() => setHoveredItem('ciudad-deportiva')}
                 onMouseLeave={() => setHoveredItem(null)}
               >
-                <a href="ciudad-deportiva">Ciudad Deportiva</a>
+                <a href={`${base}/ciudad-deportiva`}>Ciudad Deportiva</a>
               </li>
               )}
               {language === 'en' && (
@@ -100,7 +101,7 @@ export default function Navbar() {
                 onMouseEnter={() => setHoveredItem('ciudad-deportiva')}
                 onMouseLeave={() => setHoveredItem(null)}
               >
-                <a href="ciudad-deportiva">Sports City</a>
+                <a href={`${base}/ciudad-deportiva`}>Sports City</a>
               </li>
               )}
 
@@ -109,7 +110,7 @@ export default function Navbar() {
                 onMouseEnter={() => setHoveredItem('paisaje-tiempo-ciudad')}
                 onMouseLeave={() => setHoveredItem(null)}
               >
-                <a href="paisaje-tiempo-ciudad">Pasaje-tiempo-ciudad</a>
+                <a href={`${base}/paisaje-tiempo-ciudad`}>Pasaje-tiempo-ciudad</a>
               </li>
               )}
               {language === 'en' && (
@@ -117,7 +118,7 @@ export default function Navbar() {
                 onMouseEnter={() => setHoveredItem('paisaje-tiempo-ciudad')}
                 onMouseLeave={() => setHoveredItem(null)}
               >
-                <a href="paisaje-tiempo-ciudad">Landscape-Time-City</a>
+                <a href={`${base}/paisaje-tiempo-ciudad`}>Landscape-Time-City</a>
               </li>
               )}
 
@@ -126,7 +127,7 @@ export default function Navbar() {
                 onMouseEnter={() => setHoveredItem('tu-y-yo')}
                 onMouseLeave={() => setHoveredItem(null)}
               >
-                <a href="tu-y-yo">&quot;tú&quot; y &quot;yo&quot;, &quot;tú y yo&quot;</a>
+                <a href={`${base}/tu-y-yo`}>&quot;tú&quot; y &quot;yo&quot;, &quot;tú y yo&quot;</a>
               </li>
               )}
               {language === 'en' && (
@@ -134,7 +135,7 @@ export default function Navbar() {
                 onMouseEnter={() => setHoveredItem('tu-y-yo')}
                 onMouseLeave={() => setHoveredItem(null)}
               >
-                <a href="tu-y-yo">&quot;you&quot; and &quot;me&quot;, &quot;me and you&quot;</a>
+                <a href={`${base}/tu-y-yo`}>&quot;you&quot; and &quot;me&quot;, &quot;me and you&quot;</a>
               </li>
               )}
 
@@ -168,62 +169,62 @@ export default function Navbar() {
             <div className='col-span-3 pb-8'>
               <ul className="project-list">
                   <li>
-                    <a href="/rey-yupanqui" id='rey-yupanqui'>Rey Yupanqui</a>
+                    <a href={`${base}/rey-yupanqui`} id='rey-yupanqui'>Rey Yupanqui</a>
                   </li>
                   <li>
-                    <a href="/estudio-iv">Estudio IV</a>
+                    <a href={`${base}/estudio-iv`}>Estudio IV</a>
                   </li>
                   <li>
-                    <a href="/palmarosa">Palmarosa</a>
+                    <a href={`${base}/palmarosa`}>Palmarosa</a>
                   </li>
                   {language === 'es' && (
                   <li>
-                    <a href="/casa-rosales">Casa Rosales</a>
+                    <a href={`${base}/casa-rosales`}>Casa Rosales</a>
                   </li>
                   )}
                   {language === 'en' && (
                   <li>
-                    <a href="/casa-rosales">Rosales House</a>
+                    <a href={`${base}/casa-rosales`}>Rosales House</a>
                   </li>
                   )}
                   {language === 'es' && (
                   <li>
-                    <a href="/casa-rio">Casa Río</a>
+                    <a href={`${base}/casa-rio`}>Casa Río</a>
                   </li>
                   )}
                   {language === 'en' && (
                   <li>
-                    <a href="/casa-rio">Río House</a>
+                    <a href={`${base}/casa-rio`}>Río House</a>
                   </li>
                   )}
                   {language === 'es' && (
                   <li>
-                    <a href="ciudad-deportiva">Ciudad Deportiva</a>
+                    <a href={`${base}/ciudad-deportiva`}>Ciudad Deportiva</a>
                   </li>
                   )}
                   {language === 'en' && (
                   <li>
-                    <a href="sports-city">Sports City</a>
+                    <a href={`${base}/sports-city`}>Sports City</a>
                   </li>
                   )}
                   {language === 'es' && (
                   <li>
-                    <a href="paisaje-tiempo-ciudad">Paisaje-tiempo-ciudad</a>
+                    <a href={`${base}/paisaje-tiempo-ciudad`}>Paisaje-tiempo-ciudad</a>
                   </li>
                   )}
                   {language === 'en' && (
                   <li>
-                    <a href="/paisaje-tiempo-ciudad">Landscape-Time-City</a>
+                    <a href={`${base}/paisaje-tiempo-ciudad`}>Landscape-Time-City</a>
                   </li>
                   )}
                   {language === 'es' && (
                   <li>
-                    <a href="tu-y-yo">&quot;tú&quot; y &quot;yo&quot;, &quot;tú y yo&quot;</a>
+                    <a href={`${base}/tu-y-yo`}>&quot;tú&quot; y &quot;yo&quot;, &quot;tú y yo&quot;</a>
                   </li>
                   )}
                   {language === 'en' && (
                   <li>
-                    <a href="tu-y-yo">&quot;you&quot; and &quot;me&quot;, &quot;me and you&quot;</a>
+                    <a href={`${base}/tu-y-yo`}>&quot;you&quot; and &quot;me&quot;, &quot;me and you&quot;</a>
                   </li>
                   )}
                 </ul>

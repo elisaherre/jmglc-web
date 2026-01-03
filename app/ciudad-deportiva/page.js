@@ -156,9 +156,9 @@ export default function CiudadDeportiva() {
         </div>
 
       <div className='close-btn'>
-        <a href='/'>
+        <a href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/`}>
           <Image
-            src='/images/close.png'
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/close.png`}
             alt='Close'
             width={15}
             height={15}
@@ -177,7 +177,7 @@ export default function CiudadDeportiva() {
           <div className='col-span-4 md:col-span-12'>
             <div className='img-full'>
               <Image
-                src='/images/ciudad-deportiva/01.webp'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/ciudad-deportiva/01.webp`}
                 alt='Ciudad Deportiva'
                 width={100}
                 height={100}
@@ -191,7 +191,7 @@ export default function CiudadDeportiva() {
           <div className='col-span-4 md:col-span-6'>
             <div className='img-left'>
               <Image
-                src='/images/ciudad-deportiva/02.webp'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/ciudad-deportiva/02.webp`}
                 alt='Ciudad Deportiva'
                 width={100}
                 height={100}
@@ -206,7 +206,7 @@ export default function CiudadDeportiva() {
         <div className='col-span-4 md:col-span-12'>
             <div className='img-full'>
               <Image
-                src='/images/ciudad-deportiva/03.webp'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/ciudad-deportiva/03.webp`}
                 alt='Ciudad Deportiva'
                 width={100}
                 height={100}
@@ -221,7 +221,7 @@ export default function CiudadDeportiva() {
           <div className='md:col-span-6 col-span-4'>
             <div className='img-right'>
               <Image
-                src='/images/ciudad-deportiva/04.webp'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/ciudad-deportiva/04.webp`}
                 alt='Ciudad Deportiva'
                 width={100}
                 height={100}
@@ -235,7 +235,7 @@ export default function CiudadDeportiva() {
         <div className='col-span-4 md:col-span-12'>
             <div className='img-full'>
               <Image
-                src='/images/ciudad-deportiva/05.webp'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/ciudad-deportiva/05.webp`}
                 alt='Ciudad Deportiva'
                 width={100}
                 height={100}
@@ -249,7 +249,7 @@ export default function CiudadDeportiva() {
         <div className='col-span-4 md:col-span-12 pb-10'>
             <div className='img-full'>
               <Image
-                src='/images/ciudad-deportiva/06.webp'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/ciudad-deportiva/06.webp`}
                 alt='Ciudad Deportiva'
                 width={100}
                 height={100}

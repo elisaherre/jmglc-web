@@ -151,9 +151,9 @@ export default function CasaRosales() {
         </div>
 
       <div className='close-btn'>
-        <a href='/'>
+        <a href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/`}>
           <Image
-            src='/images/close.png'
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/close.png`}
             alt='Close'
             width={15}
             height={15}
@@ -172,7 +172,7 @@ export default function CasaRosales() {
           <div className='col-span-4 md:col-span-12'>
             <div className='img-full'>
               <Image
-                src='/images/casa-rosales/01.webp'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/casa-rosales/01.webp`}
                 alt='Casa Rosales'
                 width={100}
                 height={100}
@@ -186,7 +186,7 @@ export default function CasaRosales() {
           <div className='col-span-4 md:col-span-6'>
             <div className='img-left'>
               <Image
-                src='/images/casa-rosales/02.webp'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/casa-rosales/02.webp`}
                 alt='Casa Rosales'
                 width={100}
                 height={100}
@@ -202,7 +202,7 @@ export default function CasaRosales() {
           <div className='md:col-span-6 col-span-4'>
             <div className='img-right'>
               <Image
-                src='/images/casa-rosales/03.webp'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/casa-rosales/03.webp`}
                 alt='Casa Rosales'
                 width={100}
                 height={100}
@@ -216,7 +216,7 @@ export default function CasaRosales() {
           <div className='col-span-2 md:col-span-6'>
             <div className='img-dbl'>
               <Image
-                src='/images/casa-rosales/04.webp'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/casa-rosales/04.webp`}
                 alt='Casa Rosales'
                 width={100}
                 height={100}
@@ -228,7 +228,7 @@ export default function CasaRosales() {
           <div className='col-span-2 md:col-span-6'>
             <div className='img-dbl'>
               <Image
-                    src='/images/casa-rosales/05.webp'
+                    src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/casa-rosales/05.webp`}
                     alt='Casa Rosales'
                     width={100}
                     height={100}
@@ -242,7 +242,7 @@ export default function CasaRosales() {
         <div className='col-span-4 md:col-span-12'>
             <div className='img-full'>
               <Image
-                src='/images/casa-rosales/06.png'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/casa-rosales/06.png`}
                 alt='Casa Rosales'
                 width={100}
                 height={100}
@@ -257,7 +257,7 @@ export default function CasaRosales() {
         <div className='md:col-span-6 col-span-4'>
             <div className='img-right'>
               <Image
-                src='/images/casa-rosales/07.webp'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/casa-rosales/07.webp`}
                 alt='Casa Rosales'
                 width={100}
                 height={100}
@@ -271,7 +271,7 @@ export default function CasaRosales() {
         <div className='col-span-4 md:col-span-12'>
             <div className='img-full'>
               <Image
-                src='/images/casa-rosales/08.webp'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/casa-rosales/08.webp`}
                 alt='Casa Rosales'
                 width={100}
                 height={100}
@@ -285,7 +285,7 @@ export default function CasaRosales() {
         <div className='col-span-2 md:col-span-6'>
             <div className='img-dbl'>
               <Image
-                src='/images/casa-rosales/09.webp'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/casa-rosales/09.webp`}
                 alt='Casa Rosales'
                 width={100}
                 height={100}
@@ -297,7 +297,7 @@ export default function CasaRosales() {
           <div className='col-span-2 md:col-span-6'>
             <div className='img-dbl'>
               <Image
-                    src='/images/casa-rosales/10.webp'
+                    src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/casa-rosales/10.webp`}
                     alt='Casa Rosales'
                     width={100}
                     height={100}
@@ -311,7 +311,7 @@ export default function CasaRosales() {
           <div className='col-span-4 md:col-span-6'>
             <div className='img-left'>
               <Image
-                src='/images/casa-rosales/11.webp'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/casa-rosales/11.webp`}
                 alt='Casa Rosales'
                 width={100}
                 height={100}
@@ -327,7 +327,7 @@ export default function CasaRosales() {
         <div className='md:col-span-6 col-span-4'>
             <div className='img-right'>
               <Image
-                src='/images/casa-rosales/12.webp'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/casa-rosales/12.webp`}
                 alt='Casa Rosales'
                 width={100}
                 height={100}
@@ -341,7 +341,7 @@ export default function CasaRosales() {
         <div className='col-span-4 md:col-span-12'>
             <div className='img-full'>
               <Image
-                src='/images/casa-rosales/13.png'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/casa-rosales/13.png`}
                 alt='Casa Rosales'
                 width={100}
                 height={100}
@@ -355,7 +355,7 @@ export default function CasaRosales() {
         <div className='col-span-4 md:col-span-6'>
             <div className='img-left'>
               <Image
-                src='/images/casa-rosales/14.webp'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/casa-rosales/14.webp`}
                 alt='Casa Rosales'
                 width={100}
                 height={100}
@@ -370,7 +370,7 @@ export default function CasaRosales() {
         <div className='col-span-4 md:col-span-12 pb-10'>
             <div className='img-full'>
               <Image
-                src='/images/casa-rosales/15.webp'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/casa-rosales/15.webp`}
                 alt='Casa Rosales'
                 width={100}
                 height={100}

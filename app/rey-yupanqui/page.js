@@ -162,9 +162,9 @@ export default function Rey() {
         </div>
 
       <div className='close-btn'>
-        <a href='/'>
+        <a href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/`}>
           <Image
-            src='/images/close.png'
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/close.png`}
             alt='Close'
             width={15}
             height={15}
@@ -183,7 +183,7 @@ export default function Rey() {
         <div className='col-span-4 md:col-span-6'>
           <div className='img-left'>
             <Image
-              src='/images/rey-yupanqui/01.webp'
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/rey-yupanqui/01.webp`}
               alt='Rey Yupanqui'
               width={100}
               height={100}
@@ -199,7 +199,7 @@ export default function Rey() {
         <div className='md:col-span-6 col-span-4'>
           <div className='img-right'>
             <Image
-              src='/images/rey-yupanqui/02.webp'
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/rey-yupanqui/02.webp`}
               alt='Rey Yupanqui'
               width={100}
               height={100}
@@ -213,7 +213,7 @@ export default function Rey() {
         <div className='col-span-2 md:col-span-6'>
           <div className='img-dbl'>
             <Image
-              src='/images/rey-yupanqui/03.webp'
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/rey-yupanqui/03.webp`}
               alt='Rey Yupanqui'
               width={100}
               height={100}
@@ -224,8 +224,8 @@ export default function Rey() {
         </div>
         <div className='col-span-2 md:col-span-6'>
           <div className='img-dbl'>
-            <Image
-                  src='/images/rey-yupanqui/04.webp'
+                <Image
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/rey-yupanqui/04.webp`}
                   alt='Rey Yupanqui'
                   width={100}
                   height={100}
@@ -239,7 +239,7 @@ export default function Rey() {
         <div className='col-span-4 md:col-span-6'>
           <div className='img-left'>
             <Image
-              src='/images/rey-yupanqui/05.webp'
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/rey-yupanqui/05.webp`}
               alt='Rey Yupanqui'
               width={100}
               height={100}
@@ -254,7 +254,7 @@ export default function Rey() {
         <div className='col-span-2 md:col-span-6'>
           <div className='img-dbl'>
             <Image
-              src='/images/rey-yupanqui/06.webp'
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/rey-yupanqui/06.webp`}
               alt='Rey Yupanqui'
               width={100}
               height={100}
@@ -265,8 +265,8 @@ export default function Rey() {
         </div>
         <div className='col-span-2 md:col-span-6'>
           <div className='img-dbl'>
-            <Image
-                  src='/images/rey-yupanqui/07.webp'
+                <Image
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/rey-yupanqui/07.webp`}
                   alt='Rey Yupanqui'
                   width={100}
                   height={100}
@@ -281,7 +281,7 @@ export default function Rey() {
         <div className='md:col-span-6 col-span-4'>
           <div className='img-right'>
             <Image
-              src='/images/rey-yupanqui/08.webp'
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/rey-yupanqui/08.webp`}
               alt='Rey Yupanqui'
               width={100}
               height={100}
@@ -295,7 +295,7 @@ export default function Rey() {
         <div className='col-span-2 md:col-span-6'>
           <div className='img-dbl'>
             <Image
-              src='/images/rey-yupanqui/09.webp'
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/rey-yupanqui/09.webp`}
               alt='Rey Yupanqui'
               width={100}
               height={100}
@@ -306,8 +306,8 @@ export default function Rey() {
         </div>
         <div className='col-span-2 md:col-span-6'>
           <div className='img-dbl'>
-            <Image
-                  src='/images/rey-yupanqui/10.webp'
+                <Image
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/rey-yupanqui/10.webp`}
                   alt='Rey Yupanqui'
                   width={100}
                   height={100}
@@ -321,7 +321,7 @@ export default function Rey() {
         <div className='col-span-4 md:col-span-6'>
           <div className='img-left'>
             <Image
-              src='/images/rey-yupanqui/11.webp'
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/rey-yupanqui/11.webp`}
               alt='Rey Yupanqui'
               width={100}
               height={100}
@@ -336,7 +336,7 @@ export default function Rey() {
         <div className='col-span-2 md:col-span-6'>
           <div className='img-dbl'>
             <Image
-              src='/images/rey-yupanqui/12.webp'
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/rey-yupanqui/12.webp`}
               alt='Rey Yupanqui'
               width={100}
               height={100}
@@ -347,8 +347,8 @@ export default function Rey() {
         </div>
         <div className='col-span-2 md:col-span-6'>
           <div className='img-dbl'>
-            <Image
-                  src='/images/rey-yupanqui/13.webp'
+                <Image
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/rey-yupanqui/13.webp`}
                   alt='Rey Yupanqui'
                   width={100}
                   height={100}
@@ -362,7 +362,7 @@ export default function Rey() {
         <div className='col-span-4 md:col-span-12 pb-10'>
           <div className='img-full'>
             <Image
-              src='/images/rey-yupanqui/14.webp'
+              src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/rey-yupanqui/14.webp`}
               alt='Rey Yupanqui'
               width={100}
               height={100}

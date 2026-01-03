@@ -7,6 +7,7 @@ import { useState } from 'react';
 export default function About() {
   const { language } = useLanguage();
   const [isExpanded, setIsExpanded] = useState(false);
+  const base = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
   const toggleReadMore = () => {
     setIsExpanded(!isExpanded);
@@ -68,7 +69,7 @@ export default function About() {
               <div className="bio-img-container">
                   <p className="bio-text">José María Gómez de León</p>
                   <Image
-                    src="/images/jmglc_about.png"
+                    src={`${base}/images/jmglc_about.png`}
                     alt="José María Gómez de León Cantú"
                     className="bio-image"
                     width={100}

@@ -161,9 +161,9 @@ export default function Estudio() {
         </div>
 
       <div className='close-btn'>
-        <a href='/'>
+        <a href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/`}>
           <Image
-            src='/images/close.png'
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/close.png`}
             alt='Close'
             width={15}
             height={15}
@@ -182,7 +182,7 @@ export default function Estudio() {
           <div className='col-span-4 md:col-span-6'>
             <div className='img-left'>
               <Image
-                src='/images/estudio-iv/01.webp'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/estudio-iv/01.webp`}
                 alt='Estudio IV'
                 width={100}
                 height={100}
@@ -197,7 +197,7 @@ export default function Estudio() {
           <div className='col-span-2 md:col-span-6'>
             <div className='img-dbl'>
               <Image
-                src='/images/estudio-iv/02.webp'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/estudio-iv/02.webp`}
                 alt='Estudio IV'
                 width={100}
                 height={100}
@@ -209,7 +209,7 @@ export default function Estudio() {
           <div className='col-span-2 md:col-span-6'>
             <div className='img-dbl'>
               <Image
-                    src='/images/estudio-iv/03.webp'
+                    src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/estudio-iv/03.webp`}
                     alt='Estudio IV'
                     width={100}
                     height={100}
@@ -224,7 +224,7 @@ export default function Estudio() {
           <div className='md:col-span-6 col-span-4'>
             <div className='img-right'>
               <Image
-                src='/images/estudio-iv/04.webp'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/estudio-iv/04.webp`}
                 alt='Estudio IV'
                 width={100}
                 height={100}
@@ -238,7 +238,7 @@ export default function Estudio() {
           <div className='col-span-4 md:col-span-12'>
             <div className='img-full'>
               <Image
-                src='/images/estudio-iv/05.webp'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/estudio-iv/05.webp`}
                 alt='Estudio IV'
                 width={100}
                 height={100}
@@ -253,7 +253,7 @@ export default function Estudio() {
           <div className='md:col-span-6 col-span-4'>
             <div className='img-right'>
               <Image
-                src='/images/estudio-iv/06.webp'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/estudio-iv/06.webp`}
                 alt='Estudio IV'
                 width={100}
                 height={100}
@@ -267,7 +267,7 @@ export default function Estudio() {
           <div className='col-span-2 md:col-span-6'>
             <div className='img-dbl'>
               <Image
-                src='/images/estudio-iv/07.webp'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/estudio-iv/07.webp`}
                 alt='Estudio IV'
                 width={100}
                 height={100}
@@ -279,7 +279,7 @@ export default function Estudio() {
           <div className='col-span-2 md:col-span-6'>
             <div className='img-dbl'>
               <Image
-                    src='/images/estudio-iv/08.webp'
+                    src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/estudio-iv/08.webp`}
                     alt='Estudio IV'
                     width={100}
                     height={100}
@@ -293,7 +293,7 @@ export default function Estudio() {
           <div className='col-span-4 md:col-span-6'>
             <div className='img-left'>
               <Image
-                src='/images/estudio-iv/09.webp'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/estudio-iv/09.webp`}
                 alt='Estudio-IV'
                 width={100}
                 height={100}
@@ -308,7 +308,7 @@ export default function Estudio() {
           <div className='col-span-4 md:col-span-12 pb-10'>
             <div className='img-full'>
               <Image
-                src='/images/estudio-iv/10.webp'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/estudio-iv/10.webp`}
                 alt='Estudio IV'
                 width={100}
                 height={100}

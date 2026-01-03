@@ -141,9 +141,9 @@ export default function PTC() {
         </div>
 
       <div className='close-btn'>
-        <a href='/'>
+        <a href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/`}>
           <Image
-            src='/images/close.png'
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/close.png`}
             alt='Close'
             width={15}
             height={15}
@@ -162,7 +162,7 @@ export default function PTC() {
           <div className='col-span-4 md:col-span-12'>
             <div className='img-full'>
               <Image
-                src='/images/paisaje-tiempo-ciudad/01.webp'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/paisaje-tiempo-ciudad/01.webp`}
                 alt='Paisaje Tiempo Ciudad'
                 width={100}
                 height={100}
@@ -176,7 +176,7 @@ export default function PTC() {
           <div className='md:col-span-6 col-span-4'>
             <div className='img-right'>
               <Image
-                src='/images/paisaje-tiempo-ciudad/02.webp'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/paisaje-tiempo-ciudad/02.webp`}
                 alt='Paisaje Tiempo Ciudad'
                 width={100}
                 height={100}
@@ -191,7 +191,7 @@ export default function PTC() {
           <div className='col-span-4 md:col-span-12'>
             <div className='img-full'>
               <Image
-                src='/images/paisaje-tiempo-ciudad/03.webp'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/paisaje-tiempo-ciudad/03.webp`}
                 alt='Paisaje Tiempo Ciudad'
                 width={100}
                 height={100}
@@ -206,7 +206,7 @@ export default function PTC() {
         <div className='md:col-span-6 col-span-4'>
             <div className='img-right'>
               <Image
-                src='/images/paisaje-tiempo-ciudad/04.webp'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/paisaje-tiempo-ciudad/04.webp`}
                 alt='Paisaje Tiempo Ciudad'
                 width={100}
                 height={100}
@@ -220,7 +220,7 @@ export default function PTC() {
         <div className='col-span-4 md:col-span-12'>
             <div className='img-full'>
               <Image
-                src='/images/paisaje-tiempo-ciudad/05.webp'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/paisaje-tiempo-ciudad/05.webp`}
                 alt='Paisaje Tiempo Ciudad'
                 width={100}
                 height={100}
@@ -234,7 +234,7 @@ export default function PTC() {
         <div className='md:col-span-6 col-span-4'>
             <div className='img-right'>
               <Image
-                src='/images/paisaje-tiempo-ciudad/06.webp'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/paisaje-tiempo-ciudad/06.webp`}
                 alt='Paisaje Tiempo Ciudad'
                 width={100}
                 height={100}
@@ -249,7 +249,7 @@ export default function PTC() {
         <div className='col-span-4 md:col-span-12'>
             <div className='img-full'>
               <Image
-                src='/images/paisaje-tiempo-ciudad/07.webp'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/paisaje-tiempo-ciudad/07.webp`}
                 alt='Paisaje Tiempo Ciudad'
                 width={100}
                 height={100}
@@ -264,7 +264,7 @@ export default function PTC() {
         <div className='md:col-span-6 col-span-4 pb-10'>
             <div className='img-right'>
               <Image
-                src='/images/paisaje-tiempo-ciudad/08.webp'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/paisaje-tiempo-ciudad/08.webp`}
                 alt='Paisaje Tiempo Ciudad'
                 width={100}
                 height={100}

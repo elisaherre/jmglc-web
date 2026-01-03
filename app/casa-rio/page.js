@@ -145,9 +145,9 @@ export default function RioHouse() {
         </div>
 
       <div className='close-btn'>
-        <a href='/'>
+        <a href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/`}>
           <Image
-            src='/images/close.png'
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/close.png`}
             alt='Close'
             width={15}
             height={15}
@@ -166,7 +166,7 @@ export default function RioHouse() {
           <div className='col-span-4 md:col-span-12'>
             <div className='img-full'>
               <Image
-                src='/images/casa-rio/01.webp'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/casa-rio/01.webp`}
                 alt='Casa Río'
                 width={100}
                 height={100}
@@ -180,7 +180,7 @@ export default function RioHouse() {
         <div className='col-span-4 md:col-span-12'>
             <div className='img-full'>
               <Image
-                src='/images/casa-rio/02.webp'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/casa-rio/02.webp`}
                 alt='Casa Río'
                 width={100}
                 height={100}
@@ -194,7 +194,7 @@ export default function RioHouse() {
         <div className='col-span-4 md:col-span-12'>
             <div className='img-full'>
               <Image
-                src='/images/casa-rio/03.webp'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/casa-rio/03.webp`}
                 alt='Casa Río'
                 width={100}
                 height={100}
@@ -208,7 +208,7 @@ export default function RioHouse() {
           <div className='col-span-4 md:col-span-6'>
             <div className='img-left'>
               <Image
-                src='/images/casa-rio/04.webp'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/casa-rio/04.webp`}
                 alt='Casa Rio'
                 width={100}
                 height={100}
@@ -224,7 +224,7 @@ export default function RioHouse() {
           <div className='md:col-span-6 col-span-4'>
             <div className='img-right'>
               <Image
-                src='/images/casa-rio/05.webp'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/casa-rio/05.webp`}
                 alt='Casa Río'
                 width={100}
                 height={100}
@@ -238,7 +238,7 @@ export default function RioHouse() {
         <div className='col-span-4 md:col-span-12'>
             <div className='img-full'>
               <Image
-                src='/images/casa-rio/06.webp'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/casa-rio/06.webp`}
                 alt='Casa Río'
                 width={100}
                 height={100}
@@ -253,7 +253,7 @@ export default function RioHouse() {
           <div className='md:col-span-6 col-span-4'>
             <div className='img-right'>
               <Image
-                src='/images/casa-rio/07.webp'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/casa-rio/07.webp`}
                 alt='Casa Río'
                 width={100}
                 height={100}
@@ -267,7 +267,7 @@ export default function RioHouse() {
         <div className='col-span-4 md:col-span-12 pb-10'>
             <div className='img-full'>
               <Image
-                src='/images/casa-rio/08.webp'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/casa-rio/08.webp`}
                 alt='Casa Río'
                 width={100}
                 height={100}

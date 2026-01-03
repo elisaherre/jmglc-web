@@ -176,9 +176,9 @@ export default function Palmarosa() {
         </div>
 
       <div className='close-btn'>
-        <a href='/'>
+        <a href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/`}>
           <Image
-            src='/images/close.png'
+            src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/close.png`}
             alt='Close'
             width={15}
             height={15}
@@ -197,7 +197,7 @@ export default function Palmarosa() {
           <div className='col-span-4 md:col-span-12'>
             <div className='img-full'>
               <Image
-                src='/images/palmarosa/01.webp'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/palmarosa/01.webp`}
                 alt='Palmarosa'
                 width={100}
                 height={100}
@@ -212,7 +212,7 @@ export default function Palmarosa() {
           <div className='md:col-span-6 col-span-4'>
             <div className='img-right'>
               <Image
-                src='/images/palmarosa/02.webp'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/palmarosa/02.webp`}
                 alt='Palmarosa'
                 width={100}
                 height={100}
@@ -226,7 +226,7 @@ export default function Palmarosa() {
           <div className='col-span-2 md:col-span-6'>
             <div className='img-dbl'>
               <Image
-                src='/images/palmarosa/03.webp'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/palmarosa/03.webp`}
                 alt='Palmarosa'
                 width={100}
                 height={100}
@@ -238,7 +238,7 @@ export default function Palmarosa() {
           <div className='col-span-2 md:col-span-6'>
             <div className='img-dbl'>
               <Image
-                    src='/images/palmarosa/04.webp'
+                    src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/palmarosa/04.webp`}
                     alt='Palmarosa'
                     width={100}
                     height={100}
@@ -252,7 +252,7 @@ export default function Palmarosa() {
         <div className='col-span-2 md:col-span-6'>
             <div className='img-dbl'>
               <Image
-                src='/images/palmarosa/05.webp'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/palmarosa/05.webp`}
                 alt='Palmarosa'
                 width={100}
                 height={100}
@@ -264,7 +264,7 @@ export default function Palmarosa() {
           <div className='col-span-2 md:col-span-6'>
           <div className='img-dbl'>
               <Image
-                    src='/images/palmarosa/06.webp'
+                    src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/palmarosa/06.webp`}
                     alt='Palmarosa'
                     width={100}
                     height={100}
@@ -278,7 +278,7 @@ export default function Palmarosa() {
           <div className='col-span-4 md:col-span-6'>
             <div className='img-left'>
               <Image
-                src='/images/palmarosa/07.webp'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/palmarosa/07.webp`}
                 alt='Palmarosa'
                 width={100}
                 height={100}
@@ -293,7 +293,7 @@ export default function Palmarosa() {
         <div className='col-span-2 md:col-span-6 pb-10'>
             <div className='img-dbl'>
               <Image
-                src='/images/palmarosa/08.webp'
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/palmarosa/08.webp`}
                 alt='Palmarosa'
                 width={100}
                 height={100}
@@ -305,7 +305,7 @@ export default function Palmarosa() {
         <div className='col-span-2 md:col-span-6 pb-10'>
           <div className='img-dbl'>
               <Image
-                    src='/images/palmarosa/09.webp'
+                    src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/palmarosa/09.webp`}
                     alt='Palmarosa'
                     width={100}
                     height={100}
