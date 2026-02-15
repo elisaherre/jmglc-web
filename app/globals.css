@@ -94,7 +94,7 @@
   }
 
   .bio-img-container {
-    @apply w-48 lg:w-72 md:min-h-52 lg:min-h-72 xl:min-h-80 md:flex justify-center flex-col items-center hidden;
+    @apply w-48 lg:w-72 md:min-h-52 lg:min-h-72 xl:min-h-80 flex md:flex justify-center flex-col items-center;
     position: relative;
     height: 100%;
     align-items: center;
@@ -136,6 +136,34 @@
 
   .bio-img-container:hover .bio-image {
     opacity: 1;
+  }
+
+  /* Mobile: show image by default (no hover) and hide text overlay */
+  @media (max-width: 767px) {
+    .bio-img-container {
+      position: relative;
+      display: block;
+    }
+    .bio-img-container .bio-image {
+      opacity: 1;
+      position: static;
+      transform: none;
+      height: auto;
+    }
+    .bio-text {
+      opacity: 0;
+    }
+    /* Stack the contact row into a single column on mobile so the image sits below the text */
+    .about .grid.grid-cols-2 {
+      grid-template-columns: 1fr;
+      gap: 0.5rem;
+    }
+    .about .grid.grid-cols-2 > * {
+      width: 100%;
+    }
+    .bio-img-container {
+      margin-top: 0.5rem;
+    }
   }
 
   /* Footer */
@@ -182,7 +210,7 @@
     @apply h-full w-full object-cover;
   }
 
-  
+
 
   /* Template 01 */
   .template01-01 {
