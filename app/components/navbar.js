@@ -164,8 +164,10 @@ export default function Navbar() {
       </nav>
       )}
       <nav className="navbar-mobile h-fit">
-
-          <p className='grid-span-4 flex justify-center pb-8'>José María Gómez de León Cantú</p>
+        <div className='grid grid-cols-4 gap-x-1'>
+          <div className="col-span-1"></div>
+          <p className='col-span-3 flex justify-left pb-8'>José María Gómez de León Cantú</p>
+        </div>
           { pathname === '/' && (
           <div className='grid grid-cols-4 gap-x-2.5'>
             <div className="col-span-1">
