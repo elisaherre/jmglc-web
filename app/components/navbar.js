@@ -29,7 +29,12 @@ export default function Navbar() {
         <div className='grid grid-cols-5 auto-rows gap-4'>
           <div className='col-span-1'></div>
           <div className='col-span-1'>
-            <h3>Index</h3>
+            {language === 'en' && (
+              <h3>Index</h3>
+            )}
+            {language === 'es' && (
+              <h3>Índice</h3>
+            )}
           </div>
           <div className='col-span-3'>
             <ul className="project-list">
@@ -160,7 +165,7 @@ export default function Navbar() {
       )}
       <nav className="navbar-mobile h-fit">
 
-          <p className='grid-span-4 flex justify-center pb-8'>José María Gómez de León</p>
+          <p className='grid-span-4 flex justify-center pb-8'>José María Gómez de León Cantú</p>
           { pathname === '/' && (
           <div className='grid grid-cols-4 gap-x-2.5'>
             <div className="col-span-1">
@@ -204,7 +209,7 @@ export default function Navbar() {
                   )}
                   {language === 'en' && (
                   <li>
-                    <a href={`${base}/sports-city`}>Sports City</a>
+                    <a href={`${base}/ciudad-deportiva`}>Sports City</a>
                   </li>
                   )}
                   {language === 'es' && (

@@ -35,10 +35,10 @@ export default function Rey() {
             <div className="col-span-1 mb-5">
               <div>
               {language === 'es' && (
-                <h3 className="titles fixed pl-5 md:pl-0">Fecha</h3>
+                <h3 className="titles fixed pl-5 md:pl-0">Año</h3>
               )}
               {language === 'en' && (
-                <h3 className="titles fixed pl-5 md:pl-0">Date</h3>
+                <h3 className="titles fixed pl-5 md:pl-0">Year</h3>
               )}
               </div>
             </div>
@@ -177,7 +177,7 @@ export default function Rey() {
       {/* Images */}
 
       <div className='col-span-4 md:col-span-12'>
-        <div className='grid grid-cols-4 md:grid-cols-12 gap-y-16 gap-x-4 mx-10'>
+        <div className='grid grid-cols-4 md:grid-cols-12 gap-y-16 gap-x-4 md:mx-10'>
 
         {/* IZQ */}
         <div className='col-span-4 md:col-span-6'>

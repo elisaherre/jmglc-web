@@ -42,11 +42,16 @@
   .titles {
     @apply uppercase w-full;
     font-size: 0.5rem;
+  }
 
+  .titles-line-height {
+    @apply uppercase w-full;
+    font-size: 0.5rem;
+    line-height: 1.2;
   }
 
   .close-btn {
-    @apply fixed top-0 right-0 md:pt-11 md:pr-16 pt-16 pr-8;
+    @apply fixed top-0 right-0 md:pt-11 md:pr-16 pt-16 pr-8 mt-1 md:mt-1;
   }
 
   /* Navbar */
