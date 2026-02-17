@@ -51,7 +51,7 @@
   }
 
   .close-btn {
-    @apply fixed top-0 right-0 md:pt-11 md:pr-16 pt-16 pr-8 mt-1 md:mt-1;
+    @apply fixed top-0 right-0 md:pt-11 md:pr-16 pt-16 pr-8 mt-3 md:mt-1;
   }
 
   /* Navbar */
