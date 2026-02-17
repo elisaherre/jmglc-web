@@ -32,7 +32,7 @@ export default function RioHouse() {
                 <p className='fixed'>Casa Rio</p>
               )}
               {language === 'en' && (
-                <p className='fixed'>Rosales House</p>
+                <p className='fixed'>Rio House</p>
               )}
             </div>
 
